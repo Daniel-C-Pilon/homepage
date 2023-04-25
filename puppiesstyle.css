@@ -1,0 +1,196 @@
+body {
+	background-color: #ddccaa;
+	color: black;
+	font-family: Verdana, sans-serif;
+	margin:auto;
+}
+
+header {
+	background-color: #114433;
+	margin:auto;
+	color:#669977;
+	padding: 0.1em;
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin:0 auto;
+}
+
+/* Links */
+
+main {
+	max-width: 1200px;
+	margin:auto;
+}
+
+main a:link {
+	color: #552288;
+}
+
+main a:visited {
+	color: #552288;
+}
+
+main a:hover {
+	color: #5522dd;
+}
+
+main a:active {
+	color: #3399ff;
+}
+
+/* Navigation Bar */
+
+nav ul {
+	list-style-type:none;
+	text-align:center;
+	padding-left: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-decoration:none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav a:link {
+	color: #552288;
+}
+
+nav a:visited {
+	color: #552288;
+}
+
+nav a:hover {
+	color: #5522dd;
+}
+
+nav a:active {
+	color: #3399ff;
+}
+
+/* Table */
+
+table {
+	margin: 0 auto;
+	border: 5px solid #114433;
+	padding: 0.2em;
+	border-spacing: 0;
+}
+
+td, th {
+	border: 1px solid #114433;
+	padding: 0.5em;
+}
+
+caption {
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 0.5em;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #ccbb88;
+}
+
+tr:first-of-type {
+	background-color: #aa7755;
+}
+
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+
+footer {
+	clear:both;
+	text-align: center;
+	background-color:#114433;
+	color:#669977;
+}
+
+/* Form */
+
+form {
+	background-color:#ccbb88;
+	margin: 0 auto;
+	border: 3px solid #114433;
+	padding: 0.2em;
+	border-spacing: 0;
+}
+
+label {
+	float: left;
+	width: 125px;
+	clear: left;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+input, textarea {
+	margin-top: 10px;
+	display: block;
+}
+
+/* Responsive video embedding */
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* FontAwesome styling */
+
+footer .fa {
+	font-size: 2.5em;
+	color:#669977;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1 {
+		font-size: 2em;
+}
+ 
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1 {
+		font-size: 1.8em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.5em;
+	}
+}

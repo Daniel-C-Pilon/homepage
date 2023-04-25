@@ -1,0 +1,141 @@
+body {
+	background-color: #ddccaa;
+	color: black;
+	font-family: Verdana, sans-serif;
+	margin:auto;
+	text-align:center;
+}
+
+header {
+	background-color: #114433;
+	margin:auto;
+	color:#669977;
+	padding: 0.1em;
+	max-width: 100%;
+}
+
+/* Links */
+
+main {
+	max-width: 1200px;
+	margin:auto;
+}
+
+main a:link {
+	color: #552288;
+}
+
+main a:visited {
+	color: #552288;
+}
+
+main a:hover {
+	color: #5522dd;
+}
+
+main a:active {
+	color: #3399ff;
+}
+
+/* Navigation Bar */
+
+nav {
+	max-width: 100%;
+}
+
+nav ul {
+	list-style-type:none;
+	text-align:center;
+	padding-left: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-decoration:none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav a:link {
+	color: #552288;
+}
+
+nav a:visited {
+	color: #552288;
+}
+
+nav a:hover {
+	color: #5522dd;
+}
+
+nav a:active {
+	color: #3399ff;
+}
+
+footer {
+	clear:both;
+	max-width: 100%;
+	background-color: #114433;
+	color:#669977;
+}
+
+/* FontAwesome styling */
+
+main .fa {
+	font-size: 5em;
+	color: #000000;
+}
+
+footer .fa {
+	font-size: 2em;
+	color:#669977;
+}
+
+/* Gallery */
+
+.gallery .preview{
+    width:100%;
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1 {
+		font-size: 2em;
+		letter-spacing: 2px;
+}
+ 
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1 {
+		font-size: 1.8em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.5em;
+	}
+}

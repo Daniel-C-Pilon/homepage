@@ -1,0 +1,145 @@
+body {
+	background-color: #ddccaa;
+	color: black;
+	font-family: Verdana, sans-serif;
+	background-image: url(images/bg.png);
+	line-height: 150%;
+}
+
+header {
+	background-color: #114433;
+	color: #669977;
+	padding: 0.1em;
+}
+
+nav {
+	background-color: #ccbb88;
+}
+
+footer {
+	background-color: #114433;
+	color: #669977;
+	width: 100%;
+	clear: both;
+	box-shadow: 0 50vh 0 50vh #114433;
+}
+
+main {
+	max-width: 1024px;
+	margin: auto;
+	padding: 0.1em;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.resume {
+	background-color: white;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.doc {
+	border: 1px solid #000000;
+	box-shadow: 5px 5px 5px #ccbb88;
+}
+
+main a: link {
+	color: #552288;
+}
+
+main a: visited {
+	color: #552288;
+}
+
+main a: hover {
+	color: #5522dd;
+}
+
+main a: active {
+	color: #3399ff;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav a: link {
+	color: #552288;
+}
+
+nav a: visited {
+	color: #552288;
+}
+
+nav a: hover {
+	color: #5522dd;
+}
+
+nav a: active {
+	color: #3399ff;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+.fa {
+	font-size: 3em;
+}
+
+.centered {
+	text-align: center;
+	width: 100%;
+}	
+
+.row {
+	padding-bottom: 1em;
+}
+
+/* Gallery */
+
+.gallery .preview {
+ width: 100%;
+ height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+ width: 100px;
+ height: 100px;
+ margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img: hover {
+ opacity: .8;
+ cursor: pointer;
+}
+
+.gallery .preview img#preview {
+ padding: 1px;
+ max-width: 100%;
+ height: auto;
+ margin: 0 auto !important;
+ display: block !important;
+}
+
+canvas {
+	border: 1px solid #114433;
+	background-color: #ccbb88;
+}
